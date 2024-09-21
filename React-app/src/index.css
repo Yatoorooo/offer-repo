@@ -1,0 +1,17 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-image: url("./assets/first-png.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+}
+
+
+body{
+  margin: 8px;
+  display: block;
+}
+
+
+

@@ -1,0 +1,81 @@
+.h1-s{
+    font-family: Nirmala UI;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 76.8px;
+    text-align: center;
+    background: linear-gradient(130.09deg, #EB5D38 31.89%, #FFD600 92.03%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px white;
+    text-shadow: 1px 1px 2px #FFD53680, 0 0 1em #FFD53680, 0 0 0.2em #FFD53680;
+}
+.slider-menu{
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+}
+.content{
+    width: 462px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.slide-panel {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+img{
+    scroll-snap-align: start;
+}
+.btn-slider-prev, .btn-slider-next{
+    width: 134px;
+    height: 88px;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.25s;
+
+}
+.btn-slider-prev{
+    background-image: url("../assets/sliderPrev.svg");
+
+}
+.btn-slider-next{
+    background-image: url("../assets/sliderNext.svg");
+
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+}
+.btn-preview-next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+.btn-next{
+    background: linear-gradient(103.39deg, #FFE53B -32.17%, #FF2525 114.07%);
+    padding: 20px 0px 20px 0px;
+    border-radius: 10px 10px 10px 10px;
+    width: 463px;
+    font-family: Nirmala UI;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    color: white;
+    box-shadow: 1px 1px 8px 1px white;
+    text-decoration: none;
+}
+.btn-next:hover{
+    box-shadow: 8px 8px 10px 0px #00000066 inset;
+
+}

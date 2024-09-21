@@ -1,0 +1,141 @@
+#root {
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.main-content{
+  position: absolute;
+  z-index: 3;
+}
+.conteiner-main{
+  max-width: 1920px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img1{
+  position: relative;
+  left: 260px;
+}
+.img2{
+  position: relative;
+ right: 260px;
+}
+.header{
+  display: flex;
+  justify-content: flex-end;
+}
+.button-header{
+  cursor: pointer;
+  background: url("./assets/on.svg");
+  background-repeat: no-repeat;
+  border: none;
+  padding: 50px;
+
+
+}
+.active{
+  background: url("./assets/off.svg");
+  background-repeat: no-repeat;
+  border: none;
+  padding: 50px;
+
+}
+.main-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.h3-main{
+  font-family: Nirmala UI;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 40px ;
+  border: 1px solid white;
+  width: 779px;
+  padding: 22px 0px 23px 0px;
+  color: white;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+
+
+
+
+}
+.h3-other{
+  font-family: Nirmala UI;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 39.2px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  color: #FFF2CE;
+  width: 1100px;
+  height: 93px;
+
+
+
+}
+.h1-main{
+  font-family: Nirmala UI;
+  font-size: 84px;
+  font-weight: 700;
+  line-height: 100.8px;
+  text-align: center;
+background: linear-gradient(130.09deg, #EB5D38 31.89%, #FFD600 92.03%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px white;
+  text-shadow: 1px 1px 2px #FFD53680, 0 0 1em #FFD53680, 0 0 0.2em #FFD53680;
+
+}
+.btn-main{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.btn-f{
+  font-family: Nirmala UI;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  border: 2px solid #FFFFFF;
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+  padding: 20px 40px 20px 40px;
+cursor: pointer;
+}
+.btn-f:hover{
+  box-shadow: 4px 4px 20px 0px #FFFFFF66;
+  background:  #373737;
+;
+
+}
+.btn-t{
+  font-family: Nirmala UI;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  background: linear-gradient(130.09deg, #EB5D38 31.89%, #FFD600 92.03%);
+  border: none;
+  padding: 22px 42px 22px 42px;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 1px 1px 10px 1px white;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn-t:hover{
+  box-shadow: 8px 8px 10px 0px #00000066 inset;
+  background: linear-gradient(130.09deg, #EB5D38 31.89%, #FFD600 92.03%);
+
+}
+
