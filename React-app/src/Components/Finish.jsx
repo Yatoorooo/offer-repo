@@ -15,9 +15,10 @@ function Finish()  {
 
                 <section className='finish-page'>
 
-                    <img className= 'imgf1' src={girl3} alt='girl3'></img>
+                    <img className='imgf1' src={girl3} alt='girl3'></img>
                     <div className='finish-content'>
-                        <h1 className='h1-main h1M'>Warning</h1>
+                        <h1 className='h1-main h1M'>Warning
+                        </h1>
                         <h3 className='h3-finish'>You must be at least 18 years old and comfortable with mature topics
                             to play the game.</h3>
                         <div className=' btn-finish'>
@@ -26,10 +27,8 @@ function Finish()  {
                             </button>
                         </div>
                     </div>
+                    <button onClick={handleClick} className="button-header"></button>
                     <img className='imgf2' src={girl4} alt='girl4'></img>
-                    <div className='header finishH'>
-                        <button onClick={handleClick} className="button-header"></button>
-                    </div>
                 </section>
             </>
         );
